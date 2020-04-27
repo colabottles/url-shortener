@@ -1,0 +1,27 @@
+{
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "FCC URL Shortener Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "*",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.9"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
